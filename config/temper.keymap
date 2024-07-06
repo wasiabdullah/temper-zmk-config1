@@ -134,10 +134,10 @@
 
         layer_5 {
             bindings = <
-&mt LEFT_PARENTHESIS LEFT_BRACKET  &trans  &trans  &trans  &mt RIGHT_PARENTHESIS RIGHT_BRACKET  &trans  &trans           &trans     &trans         &trans
-&kp SEMICOLON                      &trans  &trans  &trans  &kp EQUAL                            &trans  &kp RIGHT_SHIFT  &kp RCTRL  &kp RIGHT_ALT  &kp RIGHT_GUI
-&kp GRAVE                          &trans  &trans  &trans  &trans                               &trans  &trans           &trans     &trans         &trans
-                                           &trans  &trans  &trans                               &trans  &trans           &trans
+&mt LEFT_PARENTHESIS LEFT_BRACKET  &kp NUMBER_7  &kp NUMBER_8      &kp NUMBER_9  &mt RIGHT_PARENTHESIS RIGHT_BRACKET  &trans  &trans           &trans     &trans         &trans
+&kp SEMICOLON                      &kp NUMBER_4  &kp NUMBER_5      &kp NUMBER_6  &kp EQUAL                            &trans  &kp RIGHT_SHIFT  &kp RCTRL  &kp RIGHT_ALT  &kp RIGHT_GUI
+&kp GRAVE                          &kp NUMBER_1  &kp NUMBER_2      &kp NUMBER_3  &kp BACKSLASH                        &trans  &trans           &trans     &trans         &trans
+                                                 &kp GREATER_THAN  &kp NUMBER_0  &kp MINUS                            &trans  &trans           &trans
             >;
         };
 
