@@ -21,8 +21,8 @@
         compatible = "zmk,conditional-layers";
 
         tri_layer {
-            if-layers = <5 5>;
-            then-layer = <5>;
+            if-layers = <6 6>;
+            then-layer = <6>;
         };
     };
 
@@ -138,6 +138,15 @@
 &kp SEMICOLON                      &kp NUMBER_4  &kp NUMBER_5      &kp NUMBER_6  &kp EQUAL                            &trans  &kp RIGHT_SHIFT  &kp RCTRL  &kp RIGHT_ALT  &kp RIGHT_GUI
 &kp GRAVE                          &kp NUMBER_1  &kp NUMBER_2      &kp NUMBER_3  &kp BACKSLASH                        &trans  &trans           &trans     &trans         &trans
                                                  &kp GREATER_THAN  &kp NUMBER_0  &kp MINUS                            &trans  &trans           &trans
+            >;
+        };
+
+        sym {
+            bindings = <
+&kp LEFT_BRACE  &kp AMPERSAND    &kp ASTERISK          &kp LEFT_PARENTHESIS   &kp RIGHT_BRACE  &trans  &trans           &trans     &trans         &trans
+&kp COLON       &kp DOLLAR       &kp PERCENT           &kp CARET              &kp PLUS         &trans  &kp RIGHT_SHIFT  &kp LCTRL  &kp RIGHT_ALT  &kp RIGHT_GUI
+&kp TILDE       &kp EXCLAMATION  &kp AT_SIGN           &kp HASH               &kp PIPE         &trans  &trans           &trans     &trans         &trans
+                                 &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS        &trans  &trans           &trans
             >;
         };
 
