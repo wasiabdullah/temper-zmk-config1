@@ -142,10 +142,10 @@
 
         mouse {
             bindings = <
-&trans        &trans        &trans     &trans          &trans  &kp K_REDO  &kp K_PASTE  &kp K_COPY     &kp K_CUT    &kp K_UNDO
-&kp LEFT_GUI  &kp LEFT_ALT  &kp LCTRL  &kp LEFT_SHIFT  &trans  &trans      &kp LEFT     &kp UP         &kp DOWN     &kp RIGHT
-&trans        &trans        &trans     &trans          &trans  &trans      &kp HOME     &kp PAGE_DOWN  &kp PAGE_UP  &kp END
-                            &trans     &trans          &trans  &mkp RCLK   &mkp LCLK    &mkp MCLK
+&trans     &trans        &trans        &trans          &trans  &kp K_REDO  &kp K_PASTE  &kp K_COPY     &kp K_CUT    &kp K_UNDO
+&kp LCTRL  &kp LEFT_ALT  &kp LEFT_WIN  &kp LEFT_SHIFT  &trans  &trans      &kp LEFT     &kp UP         &kp DOWN     &kp RIGHT
+&trans     &trans        &trans        &trans          &trans  &trans      &kp HOME     &kp PAGE_DOWN  &kp PAGE_UP  &kp END
+                         &trans        &trans          &trans  &mkp RCLK   &mkp LCLK    &mkp MCLK
             >;
         };
 
