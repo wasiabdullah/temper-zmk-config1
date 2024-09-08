@@ -144,10 +144,10 @@
 
         media {
             bindings = <
-&trans     &trans        &trans        &trans          &trans  &kp K_REDO        &kp K_PASTE      &kp K_COPY         &kp K_CUT        &kp K_UNDO
-&kp LCTRL  &kp LEFT_ALT  &kp LEFT_WIN  &kp LEFT_SHIFT  &trans  &trans            &kp K_PREV       &kp K_VOLUME_DOWN  &kp K_VOLUME_UP  &kp K_NEXT
-&trans     &trans        &trans        &trans          &trans  &trans            &kp HOME         &kp PAGE_DOWN      &kp PAGE_UP      &kp END
-                         &trans        &trans          &trans  &kp C_PLAY_PAUSE  &kp PAUSE_BREAK  &kp K_MUTE
+&trans     &trans        &trans        &trans          &trans   &kp K_REDO        &kp K_PASTE      &kp K_COPY         &kp K_CUT        &kp K_UNDO
+&kp LCTRL  &kp LEFT_ALT  &kp LEFT_WIN  &kp LEFT_SHIFT  &trans   &trans            &kp K_PREV       &kp K_VOLUME_DOWN  &kp K_VOLUME_UP  &kp K_NEXT
+&trans     &trans        &trans        &trans          &lt 6 A  &trans            &kp HOME         &kp PAGE_DOWN      &kp PAGE_UP      &kp END
+                         &trans        &trans          &trans   &kp C_PLAY_PAUSE  &kp PAUSE_BREAK  &kp K_MUTE
             >;
         };
 
